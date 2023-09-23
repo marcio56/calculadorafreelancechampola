@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora Freelance</title>
+</head>
+<body>
+    <nav class="barra-navegacao">
+        <img class="barra-navegacao-logotipo" src="img/calculator1.png">
+
+    </nav>
+    <main>
+        <section>
+            <article>
+                <fieldset>
+                    <legend>Quanto você ganha por mês?</legend>
+                    <input id="mes" type="number" value="0"/>
+                </fieldset>
+                <fieldset>
+                    <legend>Quantas horas você trabalha por dia?</legend>
+                    <input id="horas" type="number" value="0"/>
+                </fieldset>
+                <fieldset>
+                    <legend>Quantos dias voce trabalha por mês?</legend>
+                    <input id="dias" type="number" value="0"/>
+                </fieldset>
+                <button onclick="calculadorahora()">calcular</button>
+            </article>
+
+            <footer>
+                <h1>
+                <sapam id="resposta">0,00</sapam><samll>/horas</samll>
+                </h1>
+            </footer>
+        </section>
+    </main>
+    <footer class="rodape">feito com muita persistencia</footer>
+    <script src="calculadora.js"></script>
+    
+</body>
+</html>
